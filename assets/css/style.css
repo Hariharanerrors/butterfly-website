@@ -75,7 +75,7 @@ body {
 }
 
 .about-video {
-    background-image: url(/assets/images/about.jpg);
+    background-image: url("https://bootstrapmade.com/demo/templates/Butterfly/assets/img/about.jpg");
     height: 650px;
     background-size: cover;
     margin: 0px 47px;
@@ -106,7 +106,7 @@ body {
 }
 
 .count {
-    background-image: url(/assets/images/counts-bg.jpg) ;
+    background-image: url("https://bootstrapmade.com/demo/templates/Butterfly/assets/img/counts-bg.jpg  ") ;
     height: 350px;
     background-size: cover;
     background-position: center;
