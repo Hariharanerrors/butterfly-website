@@ -75,7 +75,7 @@ body {
 }
 
 .about-video {
-    background-image: url(/assets/images/about.jpg);
+    background-image: url("../images/about.jpg");
     height: 650px;
     background-size: cover;
     background-position: center;
@@ -105,7 +105,7 @@ body {
 }
 
 .count {
-    background-image: url(/assets/images/counts-bg.jpg) ;
+    background-image: url("../images/counts-bg.jpg") ;
     background-position: center;
     height: 350px;
     background-size: cover;
@@ -246,7 +246,7 @@ body {
 }
 
 .testimonial {
-    background-image: url(/assets/images/cta-bg.jpg);
+    background-image: url("../images/cta-bg.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
