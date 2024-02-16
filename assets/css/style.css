@@ -104,7 +104,8 @@ body {
 }
 
 .count {
-    background-image: url(/assets/images/about.jpg) center center no-repeat;
+    background-image: url(/assets/images/about.jpg) ;
+    background-position: center center no-repeat;
     height: 350px;
     background-size: cover;
     margin-top: 100px;
