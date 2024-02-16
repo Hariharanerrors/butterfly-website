@@ -78,6 +78,7 @@ body {
     background-image: url(/assets/images/about.jpg);
     height: 650px;
     background-size: cover;
+    background-position: center;
 }
 
 .icon {
@@ -104,8 +105,8 @@ body {
 }
 
 .count {
-    background-image: url(/assets/images/about.jpg) ;
-    background-position: center center no-repeat;
+    background-image: url(/assets/images/counts-bg.jpg) ;
+    background-position: center;
     height: 350px;
     background-size: cover;
     margin-top: 100px;
@@ -247,7 +248,7 @@ body {
 .testimonial {
     background-image: url(/assets/images/cta-bg.jpg);
     background-size: cover;
-    background-position: center, center;
+    background-position: center;
     position: relative;
     overflow: hidden;
 }
