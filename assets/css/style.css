@@ -75,10 +75,11 @@ body {
 }
 
 .about-video {
-    background: url("../images/about.jpg");
+    background-image: url(/assets/images/about.jpg);
     height: 650px;
     background-size: cover;
-    background-position: center;
+    margin: 0px 47px;
+    
 }
 
 .icon {
@@ -105,11 +106,11 @@ body {
 }
 
 .count {
-    background: url("../images/counts-bg.jpg") ;
-    background-position: center;
+    background-image: url("https://bootstrapmade.com/demo/templates/Butterfly/assets/img/about.jpg") ;
     height: 350px;
     background-size: cover;
-    margin-top: 100px;
+    background-position: center;
+    margin-top: 80px;
 }
 
 
@@ -246,9 +247,9 @@ body {
 }
 
 .testimonial {
-    background: url("../images/cta-bg.jpg");
+    background-image: url("https://bootstrapmade.com/demo/templates/Butterfly/assets/img/cta-bg.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center, center;
     position: relative;
     overflow: hidden;
 }
@@ -613,207 +614,399 @@ body {
 /* @media qureyies */
 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:769px) {
     .hero-sec-row {
         display: block;
     }
-
+    .navbar-brand>img {
+        position: relative;
+        left: 0;
+    }
     .collapse {
         margin-left: 0px;
     }
-
-    .about {
-        position: relative;
-        top: 205px;
+    .hero-sec-imgd {
+        margin-top: 34px;
     }
-
-    .about-row {
-        display: block;
+    .hero-sec-a  {
+        margin-left: 260px;
     }
-
-    .icon-box {
-        display: flow-root;
+    .icon>i  {
+    padding: 0px; 
     }
-
-    .count {
-        position: relative;
-        top: 124px;
+    .about {  
+    margin-top: 338px;
     }
-
+    .about-para>h1{  
+        font-size: 26px;
+    }
     .count-cont {
         position: relative;
-        top: 20px;
+        top: 50px;
     }
-
-    .client {
-        margin: 194px 75px;
+    .client-img{
+        margin-left: 33px;
     }
+    .services-box{
+        flex: none;
+        max-width: 316px;
+        margin-left: 23px;
 
-    .services-col {
-        float: none;
     }
-
-    .services {
+    .services-box>h4{
         position: relative;
-        bottom: 144px;
+        right: 34px;
     }
-
-    .portfolio {
+    .services-box>p {
         position: relative;
-        bottom: 144px;
-    }
-
-    .carousel {
-        width: 398px;
+        right: 34px;
+        width: 336px;
+        font-size: 14px;
 
     }
-
-    .carousel .img-box {
-        margin: 0px 159px;
-    }
-
-    .carousel-inner {
-        position: relative;
-        top: 24px;
-    }
-
     .team-full {
-        flex: 0 0 auto;
-        width: 50%;
+        flex: none;
+        max-width: 50%;
     }
-
     .gallery-full {
         flex: none;
-        max-width: 240px;
+        max-width: 50%;
+    }
+    .detail-text>textarea {
+        width: 670px;
+    } 
+    .detail-sub>input {
+        width: 670px;
+    } 
+    .detail>input {
+        width: 360px;
+    }
+    .contact-info {
+        flex: none;
+        max-width: 721px;
+    }
+    .detail {   
+        margin-left: 0rem!important; 
+        margin: 11px;
+    }  
+    .newsletter-form>input[type=email] {
+        width: 573px;
     }
 
+    
+}
+@media screen and (max-width:427px) {
+    .hero-sec-row {
+        display: block;
+    }
+    .navbar-brand>img {
+        position: relative;
+        left: 0;
+    }
+    .collapse {
+        margin-left: 0px;
+    }
+    .hero-sec-imgd {
+        margin-top: 34px;
+    }.hero-sec-a {
+        margin-left: 134px;
+    }
+    .icon {
+        float: left;
+        padding: 40px 21px;
+    }
+    .count-cont {
+        position: relative;
+        top: 16px;
+    }
+    .count {   
+        margin-top: 46px;
+    }
+    .client-img{
+        margin-left: 60px;
+    }
+    .services-box{
+        flex: none;
+        max-width: 370px;
+        margin-left: 23px;
+
+    }
+    .services-box>h4{
+        position: relative;
+        right: 34px;
+    }
+    .services-box>p {
+        position: relative;
+        right: 34px;
+        width: 336px;
+        font-size: 15px;
+
+    }
+    .portfolio-row {
+        display: block;
+    }
+    .portfolio-col {
+        margin-bottom: 15px;
+        max-width: 456px;
+    }
+    .carousel-item{
+        position: relative;
+        right: 106px;
+    }
+    .carousel-item>p {
+        color: white;
+        max-width: 304px;
+        margin-left: 165px;
+    }
+    .carousel-inner {
+        position: relative;
+        top: 18px;
+    }
+    .carousel-indicators{
+        position: absolute;
+        right: 227px;
+    }
+    .team-row {
+        display: block;
+    }
+    .team-full {
+        max-width: 100%;
+    }
+    .gallery-full{
+        max-width: 428px;
+    }
+    .gallery-row{
+        display: block;
+    }
+    .detail-text>textarea {
+        width: 360px;
+    } 
+    .detail-sub>input {
+        width: 360px;
+    } 
+    .detail>input {
+        width: 360px;
+    }
     .contact-info {
         flex: none;
         max-width: 721px
     }
-
-    .detail {
-        margin-left: 0rem !important;
-        position: relative;
-        left: 15px;
-        margin: 10px;
+    .detail {   
+        margin-left: 0rem!important; 
+        margin: 11px;
     }
-
-    .detail-sub>input {
-        width: 640px;
-
-    }
-
-    .detail-text>textarea {
-        width: 640px;
-
-    }
-
     .newsletter-form>input[type=email] {
-        width: 400px;
-
+        width: 250px;
     }
-
-    .copyright {
-        display: block;
-    }
-
     .credits {
-        margin-left: 0px;
+        font-size: 9px;
+        margin-left: 80px;
     }
-}
+    .copyright {
+        font-size: 9px;
+    }
 
-@media screen and (max-width:600px) {
+} 
+@media screen and  (max-width:376px) {
     .hero-sec-row {
         display: block;
     }
-
-
-    .about-row {
-        display: block;
-    }
-
-    .services-col {
-
-        float: none;
-        font-size: 23px;
-        margin: 0;
-
-    }
-
-    .services {
+    .navbar-brand>img {
         position: relative;
-        bottom: 144px;
+        left: 0;
     }
-
-    .col-4 {
-        flex: none;
-        max-width: 212px;
-
-    }
-
-    .portfolio {
-        position: relative;
-        bottom: 144px;
-    }
-
-    .testimonial {
-        position: relative;
-        bottom: 104px;
-    }
-
-    .team {
-        position: relative;
-        bottom: 90px;
-    }
-
-    .team-full {
-        width: 431px;
-    }
-
-    .gallery {
-        position: relative;
-        bottom: 90px;
-    }
-
-    .gallery-full {
-        flex: none;
-        max-width: 424px;
-    }
-
-    .detail {
-        margin-left: 0rem !important;
-        position: relative;
-        left: 15px;
-        margin: 10px;
-    }
-
-    .detail-sub>input {
-        width: 328px;
-
-    }
-
-    .detail-text>textarea {
-        width: 328px;
-
-    }
-
-    .contact-info {
-        flex: none;
-        max-width: 425px;
-    }
-
-    .newsletter-form>input[type=email] {
-        width: 291px;
-
-    }
-
-    .copyright {
-        display: block;
-    }
-
-    .credits {
+    .collapse {
         margin-left: 0px;
     }
+    .hero-sec-imgd {
+        margin-top: 34px;
+    }
+    .hero-sec-a {
+        margin-left: 119px;
 
+    }
+    .about-para>h1{  
+        font-size: 36px;
+    }
+    .client-img{
+        margin-left: 40px;
+    }
+    .services-box{
+        flex: none;
+        max-width: 317px;
+        margin-left: 23px;
+
+    }
+    .services-box>h4{
+        position: relative;
+        right: 34px;
+    }
+    .services-box>p {
+        position: relative;
+        right: 34px;
+        width: 336px;
+        font-size: 14px;
+
+    }
+    .portfolio-row {
+        display: block;
+    }
+    .portfolio-col {
+        margin-bottom: 15px;
+        max-width: 366px;
+    }
+    .carousel-item{
+        position: relative;
+        right: 128px;
+    }
+    .carousel-item>p {
+        color: white;
+        max-width: 304px;
+        margin-left: 165px;
+    }
+    .carousel-inner {
+        position: relative;
+        top: 18px;
+    }
+    .carousel-indicators{
+        position: absolute;
+        right: 262px;
+    }
+    .team-full {
+        flex: none;
+        max-width: 100%;
+    }
+    .gallery-full{
+        max-width: 378px;
+    }
+    .gallery-row{
+        display: block;
+    }
+    .detail-text>textarea {
+        width: 261px;
+    } 
+    .detail-sub>input {
+        width: 261px;
+    } 
+    .detail>input {
+        width: 260px;
+    }
+    .contact-info {
+        flex: none;
+        max-width: 721px
+    }
+    .detail {   
+        margin-left: 0rem!important; 
+        margin: 11px;
+    }
+    .newsletter-form>input[type=email] {
+        width: 250px;
+    }
+    .credits {
+        font-size: 9px;
+        margin-left: 45px;
+    }
+    .copyright {
+        font-size: 9px;
+    }
 }
+@media screen and (max-width:321px)  {
+    .hero-sec-a {
+        margin-left: 87px;
+    }
+    .about-para>h1 {
+        font-size: 22px;
+    }
+    .icon {
+        float: left;
+        padding: 59px 21px;
+    }
+    .count-cont {
+        position: relative;
+        top: 4px;
+    }
+    .client-img{
+        margin-left: 13px;
+    }
+    .services-box{
+        flex: none;
+    max-width: 303px;
+    position: relative;
+    right: 17px;
+    }
+    .services-box>h4{
+        position: relative;
+        right: 34px;
+    }
+    .services-box>p {
+        position: relative;
+        right: 34px;
+        width: 318px;
+        font-size: 14px;
+
+    }
+    .portfolio-row {
+        display: block;
+    }
+    .portfolio-col {
+        margin-bottom: 15px;
+        max-width: 314px;
+    }
+    .carousel-item{
+        position: relative;
+        right: 156px;
+    }
+    .carousel-item>p {
+        color: white;
+        max-width: 304px;
+        margin-left: 165px;
+    }
+    .carousel-inner {
+        position: relative;
+        top: 18px;
+    }
+    .carousel-indicators{
+        position: absolute;
+        right: 323px;
+    }
+    .team-full {
+        flex: none;
+        max-width: 100%;
+    }
+    .gallery-full{
+        max-width: 324px;
+    }
+    .gallery-row{
+        display: block;
+    }
+    .detail-text>textarea {
+        width: 261px;
+    } 
+    .detail-sub>input {
+        width: 261px;
+    } 
+    .detail>input {
+        width: 260px;
+    }
+    .contact-info {
+        flex: none;
+        max-width: 721px
+    }
+    .detail {   
+        margin-left: 0rem!important; 
+        margin: 11px;
+    }
+    .newsletter-form>input[type=email] {
+        width: 198px;
+    }
+    .credits {
+        font-size: 9px;
+        margin-left: 0;
+    }
+    .copyright {
+        font-size: 9px;
+    }
+}
+
+/*                   { }            */
+/*             >                 */
