@@ -106,7 +106,7 @@ body {
 }
 
 .count {
-    background-image: url("https://bootstrapmade.com/demo/templates/Butterfly/assets/img/about.jpg") ;
+    background-image: url(/assets/images/counts-bg.jpg) ;
     height: 350px;
     background-size: cover;
     background-position: center;
@@ -614,7 +614,7 @@ body {
 /* @media qureyies */
 
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:768px) {
     .hero-sec-row {
         display: block;
     }
@@ -695,7 +695,7 @@ body {
 
     
 }
-@media screen and (max-width:427px) {
+@media screen and (max-width:425px) {
     .hero-sec-row {
         display: block;
     }
@@ -807,7 +807,7 @@ body {
     }
 
 } 
-@media screen and  (max-width:376px) {
+@media screen and  (max-width:375px) {
     .hero-sec-row {
         display: block;
     }
@@ -910,7 +910,7 @@ body {
         font-size: 9px;
     }
 }
-@media screen and (max-width:321px)  {
+@media screen and (max-width:320px)  {
     .hero-sec-a {
         margin-left: 87px;
     }
