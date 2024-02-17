@@ -692,6 +692,9 @@ body {
     .newsletter-form>input[type=email] {
         width: 573px;
     }
+    .credits {
+        margin-left: 363px;
+    }
 
     
 }
@@ -997,7 +1000,7 @@ body {
         margin: 11px;
     }
     .newsletter-form>input[type=email] {
-        width: 198px;
+        width: 154px;
     }
     .credits {
         font-size: 9px;
@@ -1006,6 +1009,13 @@ body {
     .copyright {
         font-size: 9px;
     }
+    .newsletter-form>input[type=submit] {
+        width: 80px;
+    } 
+    .icon>p {
+        font-size: 15px;
+    }
+    
 }
 
 /*                   { }            */
